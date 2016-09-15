@@ -12,7 +12,7 @@ final ApiKey apiKey = new BasicApiKey("your-api-key-goes-here");
 final EventsStream eventsStream = GetDataDriven.eventsStream(apiKey);
 
 eventsStream.put(
-        new Event("order_places")
+        new Event("order_placed")
                 .with("customerId", "assdsd-qwqwqwqw-dsdsdsd")
                 .with("basketValue", 2143.23)
 );
